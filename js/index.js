@@ -1,5 +1,3 @@
-//import 'jquery';
-
 const ShoppingItem = ({ name }) => `
   <li>
     <p>${name}</p>
