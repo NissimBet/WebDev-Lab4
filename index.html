@@ -2,28 +2,35 @@
 <html lang="en">
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
   <title>
     Shopping List
   </title>
-</head>
 
+  <link rel="stylesheet" href="./css/index.css">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+ 
 <body>
   <div class="container">
     <h1>
       Shopping List
     </h1>
-    <form>
-      <label>
+    <form id="shoppingCartForm">
+      <label for="itemInput">
         Add an item
       </label>
-      <input type="text" placeholder="e.g., broccoli">
+      <input type="text" name="item" id="itemInput" placeholder="e.g., broccoli">
       <button type="submit">
         Add item
       </button>
     </form>
-    <ul>
+    <ul id="checklist">
     </ul>
   </div>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
